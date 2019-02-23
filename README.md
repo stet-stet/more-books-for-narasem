@@ -1,12 +1,15 @@
 # Conditions:
 
 python 3.6.5
+
 bs4
+
 requests
 
 # What is this?
 
 This is an haphazard attempt at gathering some info from http://lib1.kostat.go.kr/search.
+
 As per the request made by the librarian, I wanted to find books that 
 
 1. Are not kept in Narasem Library,
@@ -18,6 +21,7 @@ As per the request made by the librarian, I wanted to find books that
 
 **Make use of Kyobo.py**, perhaps?
 Kyobo.py scraps information from Korea's Kyobo bookstore, and checks if the book with the isbn given is being sold there.
+
 I doubt it is perfect, though.
 
 Oh, and..
@@ -25,8 +29,10 @@ Oh, and..
 # Disclaimer
 
 The codes kept here are not, by any means, pythonic or well-written, let alone well-documented.
-A Lot of things are hard-coded, 
+A Lot of things are hard-coded, it doesn't catch exceptions well, so on and so on...
+
 **This is a great example of what not to do when developing pretty much anything**.
+
 I have a long way to go.
 
 # The Lesson
